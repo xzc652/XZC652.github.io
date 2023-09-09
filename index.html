@@ -1,44 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .box{
-            margin: auto;
-        }
-        .one {
-            margin-top: 10px;
-            width: 400px;
-            height: 400px;
-            margin: auto;
-        }
-
-        .one img {
-            height: 600px;
-            width: 600px;
-        }
-    </style>
+    <title>表格示例</title>
 </head>
-
 <body>
-  <div class="box">  <div>
-    <table border="1" cellpadding="20" cellspacing="0" align="center">
-        <th>性别：</th>
-        <td>男</td>
-        <th>姓名：</th>
-        <td>熊自春</td>
-        <th>班级：</th>
-        <td>计科212</td>
+    <table>
+        <thead>
+            <tr>
+                <th> 姓名  </th>
+                <th> 性别  </th>
+                <th> 班级 </th>
+                <th> 学号 </th>
+                <th> 联系方式 </th>
+                <th> 爱好 </th>
+                <th> 照片 </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> 熊自春 </td>
+                <td> 男 </td>
+                <td> 计科212 </td>
+                <td> 21101010218 </td>
+                <td> 17360507686 </td>
+                <td>玩游戏</td>
+                <td><img src="menglei.png" alt="头像1"></td>
+            </tr>
+
+        </tbody>
     </table>
-</div>
-<div class="one" >
-    <img src="menglei.png">
-</div>
-</div>
-
 </body>
-
 </html>
